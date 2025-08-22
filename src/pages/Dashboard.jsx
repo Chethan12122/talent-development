@@ -56,7 +56,7 @@ const Dashboard = () => {
         </div>
         <div className="stat-card">
           <Users size={40} color="#667eea" />
-          <div className="stat-number">{totalStudents}</div>
+          <div className="stat-number">214</div>
           <div className="stat-label">Total Students</div>
         </div>
         <div className="stat-card">
@@ -94,7 +94,7 @@ const Dashboard = () => {
                       <strong>{school.points}</strong>
                     </td>
                     <td>
-                      <span className="group-badge">Group {school.group}</span>
+                      <span className="group-badge">{school.group}</span>
                     </td>
                   </tr>
                 ))}

@@ -16,6 +16,7 @@ interface Student {
   std: string
   age: number
   points: number
+  ipoints: number
 }
 
 
@@ -80,7 +81,7 @@ const Performance = () => {
               <th>Student Name</th>
               <th>School</th>
               <th>Class</th>
-              <th>Overall Points</th>
+              <th>League Points</th>
               <th>Action</th>
             </tr>
           </thead>
@@ -130,7 +131,10 @@ const Performance = () => {
                   <strong>Age:</strong> {selectedStudent.age}
                 </div>
                 <div>
-                  <strong>Overall Points:</strong> {selectedStudent.points}
+                  <strong>League Points:</strong> {selectedStudent.points}
+                </div>
+                <div>
+                  <strong>Recent match Points:</strong> {selectedStudent.ipoints}
                 </div>
               </div>
             </div>

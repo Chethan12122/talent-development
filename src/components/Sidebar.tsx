@@ -29,7 +29,7 @@ const Sidebar = () => {
     <>
       {/* Mobile Menu Button */}
       <button className="mobile-menu-btn" onClick={() => setIsMobileOpen(!isMobileOpen)}>
-        {isMobileOpen ? <X size={24} /> : <Menu size={24} />}
+        {isMobileOpen ? <X size={22} /> : <Menu size={24} />}
       </button>
 
       {/* Mobile Overlay */}

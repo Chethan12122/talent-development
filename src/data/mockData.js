@@ -37,6 +37,7 @@ export const students = [
     personalContact: "9876543211",
     place: "Brahmavar",
     points: 95,
+    ipoints: 14,
   },
   {
     id: 2,
@@ -49,6 +50,7 @@ export const students = [
     personalContact: "9876543213",
     place: "Udupi",
     points: 88,
+    ipoints: 17,
   },
   {
     id: 3,
@@ -61,6 +63,7 @@ export const students = [
     personalContact: "9876543214",
     place: "Brahmavar",
     points: 92,
+    ipoints: 13,
   },
   {
     id: 4,
@@ -73,6 +76,7 @@ export const students = [
     personalContact: "9876543216",
     place: "Udupi",
     points: 85,
+    ipoints: 18,
   },
   {
     id: 5,
@@ -85,6 +89,7 @@ export const students = [
     personalContact: "9876543217",
     place: "Udupi",
     points: 90,
+    ipoints: 15,
   },
   {
     id: 6,
@@ -97,6 +102,7 @@ export const students = [
     personalContact: "9876543219",
     place: "Udupi",
     points: 87,
+    ipoints: 11,
   },
   {
     id: 7,
@@ -109,6 +115,7 @@ export const students = [
     personalContact: "9876543221",
     place: "Udupi",
     points: 93,
+    ipoints: 19,
   },
   {
     id: 8,
@@ -121,6 +128,7 @@ export const students = [
     personalContact: "9876543223",
     place: "Malpe",
     points: 89,
+    ipoints: 16,
   },
   {
     id: 9,
@@ -133,6 +141,7 @@ export const students = [
     personalContact: "9876543225",
     place: "Udupi",
     points: 84,
+    ipoints: 10,
   },
   {
     id: 10,
@@ -145,6 +154,7 @@ export const students = [
     personalContact: "9876543227",
     place: "Udupi",
     points: 91,
+    ipoints: 20,
   },
   {
     id: 11,
@@ -157,6 +167,7 @@ export const students = [
     personalContact: "9876543229",
     place: "Padubidri",
     points: 86,
+    ipoints: 14,
   },
   {
     id: 12,
@@ -169,6 +180,7 @@ export const students = [
     personalContact: "9876543231",
     place: "Kodibettu",
     points: 88,
+    ipoints: 18,
   },
   {
     id: 13,
@@ -181,6 +193,7 @@ export const students = [
     personalContact: "9876543233",
     place: "Shankarpura",
     points: 94,
+    ipoints: 17,
   },
   {
     id: 14,
@@ -193,6 +206,7 @@ export const students = [
     personalContact: "9876543235",
     place: "Udyavara",
     points: 82,
+    ipoints: 13,
   },
   {
     id: 15,
@@ -205,8 +219,10 @@ export const students = [
     personalContact: "9876543237",
     place: "Pangala",
     points: 89,
+    ipoints: 12, // 👈 as requested
   },
 ]
+
 
 // Performance data for students
 export const performanceData = {

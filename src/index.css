@@ -58,6 +58,7 @@ body {
   font-size: 14px;
   font-weight: 600;
   white-space: nowrap;
+  margin-left: 8px;
 }
 
 .collapse-btn {
@@ -261,7 +262,7 @@ body {
   border-radius: 4px;
   background-color: #667eea;
   color: white;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 500;
 }
 
