@@ -43,6 +43,7 @@ const Dashboard = () => {
             <img src="/images/gparam.png" alt="G. Parameshwara" className="header-image rounded-full" />
             <p className="text-sm font-medium text-gray-700">G. Parameshwara</p>
             <p className="text-xs text-gray-600">Minister of Home Affairs of Karnataka</p>
+            <p className="text-xs text-gray-600">President of Karnataka Athletic Assosiation</p>
           </div>
         </div>
         <h1 className="dashboard-title">Talent Development Dashboard</h1>
@@ -145,7 +146,7 @@ const Dashboard = () => {
       <div>
         <strong>Venue:</strong> Ajjarkad Ground
         <br />
-        <strong>Referees:</strong> Muhammad Kaif, Gautam, Vishwas
+        <strong>Referees:</strong> Rohan, Prajwal
       </div>
     </div>
 
